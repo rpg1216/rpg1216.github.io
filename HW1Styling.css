@@ -1,0 +1,34 @@
+/* Style sheet for HW1 */
+
+body{
+    background-color: #ffffcc;
+    font-family: "Helvetica";
+    font-size: 12px;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+}
+
+h2{
+    font-weight: bold;
+}
+
+#header-mid{
+    text-align: center;
+    line-height: 75%;
+}
+
+#header-right{
+    float: right;
+    line-height: 75%;
+}
+
+#navigation{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+}
