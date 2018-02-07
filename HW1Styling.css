@@ -1,34 +1,82 @@
 /* Style sheet for HW1 */
 
 body{
-    background-color: #ffffcc;
     font-family: "Helvetica";
-    font-size: 12px;
+    font-size: 14px;
+    color: black;
 }
 
 h1{
     font-weight: bold;
-    text-align: center;
-    font-size: 14px;
+    font-size: 22px;
+    color: #ff99bb;
 }
 
 h2{
     font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
 }
 
-#header-mid{
+h3{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 120%;
+}
+
+h4{
+    font-weight: bold;
     text-align: center;
-    line-height: 75%;
-}
-
-#header-right{
-    float: right;
-    line-height: 75%;
+    font-size: 22px;
+    color: gray;
 }
 
 #navigation{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 42px;
     text-align: center;
-    color: blue;
+    background-color: #ff99bb;
+    color: gray;
 }
+
+#self-photo{
+    text-align: center;
+    border-style: ridge;
+    border-width: 12px;
+    border-top-color: #ff99bb;
+    border-bottom-color: #ff99bb;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#skills{
+    line-height: 50%;
+}
+
+#contact-info{
+    line-height: 50%;
+    border-bottom-style: double; 
+}
+
+#home-link{
+    text-align: center;
+    border-bottom-style: ridge;
+    border-width: 12px;
+    border-color: #ff99bb;
+}
+
+#bio-head{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom-style: double;
+    background-color: #ff99bb;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#bio-body{
+    font-size: 18px;
+    line-height: 200%;
+}
+
